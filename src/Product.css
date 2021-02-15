@@ -1,0 +1,60 @@
+.product{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    border: 2px solid rgba(26, 13, 56, 0.075);
+    overflow: hidden;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.48);
+}
+.product .pr-top{
+    height: 90px;
+}
+.product .product-title{
+    font-weight: 600;
+    font-size: 14.5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product .product-rating{
+    margin: 0;
+    display: flex;
+    color: rgb(228, 199, 37);
+}
+.product .product-rating .p-r-p{
+    font-size: 1.2rem;
+}
+.product .pr-cen{
+    height: 300px;
+    overflow: hidden;
+}
+.product .product-image{
+    width: 100%;
+    height: 280px;
+}
+.product .product-down{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product .product-cost{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product .product-button{
+    margin-left: 10px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(241, 134, 12);
+    border: none;
+    outline: none;
+    padding: 7px;
+}
+.product .product-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
